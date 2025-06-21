@@ -1,0 +1,26 @@
+name: rumah_sakit_app
+description: Aplikasi Flutter CRUD Rumah Sakit dengan Google Maps
+publish_to: 'none' # private project
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  http: ^0.13.6
+  google_maps_flutter: ^2.5.0
+  another_flushbar: ^1.12.30
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
